@@ -7,7 +7,7 @@
     --blue-color: hsl(212, 86%, 64%);
     --gray-color: hsl(232, 12%, 34%);
     --neutral-color: hsl(0, 0%, 98%);
-    --shadow-color: hsla(212, 86%, 64%, 0.1);
+    --shadow-color: hsla(212, 48%, 44%, 0.2);
     --rem-size: 14px;
 }
 
@@ -32,7 +32,7 @@ main {
     min-height: 100%;
     width: 100%;
     height: auto;
-    padding: 6rem 2.285rem;
+    padding: 5.7rem 2.285rem;
 }
 
 .ad-text-wrap {

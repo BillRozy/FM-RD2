@@ -9,7 +9,7 @@
     background: white;
     padding: 2rem;
     border-top: 0.35rem solid var(--cyan-color);
-    box-shadow: 0 0.25rem 1rem var(--shadow-color);
+    box-shadow: 0 0.5rem 1rem var(--shadow-color);
 
     /* title */
     span:first-child {
@@ -45,5 +45,8 @@
 @media (min-width: 1440px) {
     .ad-card {
         height: 250px;
+        .icon-holder {
+            height: 4.574em;
+        }
     }
 }
