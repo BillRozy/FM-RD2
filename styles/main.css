@@ -87,6 +87,7 @@ main {
         .attractive-title, .lightweight-title {
             letter-spacing: 0.25px;
             font-size: 2.57em;
+            margin-top: -0.2rem;
         }
     }
     .grid {
