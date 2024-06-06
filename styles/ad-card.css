@@ -1,0 +1,49 @@
+.ad-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 350px;
+    max-height: 250px;
+    overflow: hidden;
+    border-radius: 2%;
+    background: white;
+    padding: 2rem;
+    border-top: 0.35rem solid var(--cyan-color);
+    box-shadow: 0 0.25rem 1rem var(--shadow-color);
+
+    /* title */
+    span:first-child {
+        font-size: 1.428em;
+        font-weight: 600;
+    }
+    /* desc */
+    span:nth-child(2) {
+        opacity: 0.5;
+        font-size: 0.928em;
+        line-height: 1.642em;
+        letter-spacing: 0.09px;
+    }
+    .icon-holder {
+        margin-top: 2.28em;
+        height: 4.07em;
+        align-self: flex-end;
+        img {
+            max-height: 100%;
+        }
+    }
+    &[data-pos="2"] {
+        border-color: var(--red-color);
+    }
+    &[data-pos="3"] {
+        border-color: var(--yellow-color);
+    }
+    &[data-pos="4"] {
+        border-color: var(--blue-color);
+    }
+}
+
+@media (min-width: 1440px) {
+    .ad-card {
+        height: 250px;
+    }
+}
